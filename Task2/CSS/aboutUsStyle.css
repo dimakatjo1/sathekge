@@ -1,0 +1,180 @@
+﻿
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12PX;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background:#f4f4f4;
+}
+/*Global Class*/
+.container
+{
+	width:85%;
+	margin:auto;
+	overflow:hidden;
+}
+
+/*hearder tag style*/
+.header
+{
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+}
+.header a
+{
+	color:#ffffff;
+	text-decoration:none;
+	font-size:16px;
+	
+}
+ul
+{
+	margin :0;
+	padding:0;
+}
+
+div li
+{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+div #branding
+{
+	float:left;
+}
+div #branding h1
+{
+	margin:0;
+}
+	
+	div .nav
+{
+	float:right;
+	margin-top:15px;
+    width: 646px;
+}
+div .highlight , div .current a
+{
+	color: #e8491d;
+	font-weight:bold;
+}
+header a:hover
+{
+	color:#cccccc;
+	font-weight:bold;
+	
+	
+}
+
+/*showcase*/
+
+#showcase
+{
+	min-height:400px;
+    background-position: center;
+    background-size: cover;
+    background-color: #35424a;
+   	text-align:center;
+	color:#ffffff;
+	
+	
+}
+#showcase h1
+{ 
+margin-top:70px;
+margin-bottom:10px;
+font-size:20px;
+text-transform:uppercase;
+}
+#showcase p
+{
+	font-size:12px
+}
+
+/*boxes*/
+
+#boxes
+{
+	margin-top:20px;
+	background-color: #35424a;
+}
+
+.box
+{
+   float:left;
+   width:100%;
+   padding:20px;
+   text-align:center;
+   color:#ffffff;
+    height: 120px;
+}
+ .box img
+{
+	width:146px;
+    height: 124px;
+}
+/*aside /sidear*/
+aside #sidebar
+{
+	margin-top:10px;
+	float:right;
+	width: 30%;
+	
+}
+
+article .main-article
+{
+	float:left;
+	width:65%;
+	
+}
+
+.dark
+{
+	margin-top:10px;
+	padding:15px;
+	margin-bottom:10px;
+	background:#35424a;
+	color:#ffffff
+}
+/*footer*/
+.box p{color:#ffffff;
+    font-size: medium;
+}
+footer
+{
+	padding:20px;
+	margin-top:20px;
+	background-color:#e8491d;
+	color:#ffffff;
+	text-align:center;
+	
+}
+@media(max-width:768px)
+{
+	div #branding ,
+	div nav,
+	div nav li
+	{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+	
+	div .header
+	{padding-bottom:20px;}
+	#showcase
+	{margin-top:40px}
+}
+
+   .but {
+        transition-duration: .5S;
+        background-color: white;
+        opacity: 0.8;
+}
